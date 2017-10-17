@@ -1,0 +1,22 @@
+{
+  "name": "star",
+  "plural": "stars",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "starName": {
+      "type": "string",
+      "required": true
+    },
+    "galaxy": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
